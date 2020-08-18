@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+.container {
+    width: 100%;
+    height: 100%;
+  }
+
+.level1 {
+    width: 5%;
+    height: 100%;
+    float: left;
+    background-color:#669DB3FF;
+    text-align: center;
+    /* position: relative; */
+  }
+
+.fa-fb:hover, .fa-gh:hover, .fa-mm:hover, .fa-em:hover, .fa-ln:hover{
+  text-shadow:3px 6px rgb(0, 0, 0);
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.level2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color:#F0F6F7FF;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.level2 .p {
+  justify-self: center;
+}
+
+.level3 {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color:#A89C94FF;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+.level4 {
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color:rgba(247, 118, 124, 0.959);
+    text-align: center;
+    color: white;
+    align-items: center;
+  }
+
+.objects {
+  height: 20%;
+}
+
+.btn {
+	line-height: 200px;
+  height: 20%;
+  width: 100%;
+	text-align: center;
+  cursor: pointer;
+  color: #FFF;
+	transition: all 0.5s;
+	position: relative;
+}
+
+.btn::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.2s;
+}
+.btn:hover::before {
+	opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.btn::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 99%;
+	height: 96%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.2s;
+	border: 5px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.btn:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
