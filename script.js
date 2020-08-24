@@ -31,11 +31,11 @@ function changeDiv(i){
 
 function setColor(btn) {
 
-    document.getElementById('btn1').style.backgroundColor = "#A89C94FF";
-    document.getElementById('btn2').style.backgroundColor = "#A89C94FF";
-    document.getElementById('btn3').style.backgroundColor = "#A89C94FF";
-    document.getElementById('btn4').style.backgroundColor = "#A89C94FF";
-    document.getElementById('btn5').style.backgroundColor = "#A89C94FF";
+    document.getElementById('btn1').classList.remove("selected");
+    document.getElementById('btn2').classList.remove("selected");
+    document.getElementById('btn3').classList.remove("selected");
+    document.getElementById('btn4').classList.remove("selected");
+    document.getElementById('btn5').classList.remove("selected");
 
-    document.getElementById(btn).style.backgroundColor = "rgba(247, 118, 124, 0.959)";
+    document.getElementById(btn).classList.add('selected');
 }
