@@ -63,29 +63,39 @@
     <div id="content" class="level4">
       <div id="edu" class="edu_sec">
         <h1>EDUCATION</h1>
-        <h2 class="con">
-          Concorida University
-        </h2>
-        <p class="coninfo">Master's in applied Computer Science</p>
-        <h2 class="cec">
-          Chandigarh Engineering College
-        </h2>
-        <p class="cecinfo">Bachelor's in Computer Science</p>
-        <h2 class="sthomas">
-          St. Thomas Sr. Sec. School, Pathankot
-        </h2>
-        <p class="sthomasinfo">Non-Medical</p>
-        <h2 class="sghps">
-          Sri Guru Harkirshan Sr. Sec. Public School, Pathankot
-        </h2>
-        <p class="sghpsinfo">High School/p>
-        <h1>Course Credentials</h1>
+        <section>
+          <h2 class="con">
+            Concorida University
+          </h2>
+          <p class="coninfo">Master's in applied Computer Science</p>
+        </section>
+        <section>
+          <h2 class="cec">
+            Chandigarh Engineering College
+          </h2>
+          <p class="cecinfo">Bachelor's in Computer Science</p>
+        </section>
+        <section>
+          <h2 class="sthomas">
+            St. Thomas Sr. Sec. School, Pathankot
+          </h2>
+          <p class="sthomasinfo">Non-Medical</p>
+        </section>
+        <section>
+          <h2 class="sghps">
+            Sri Guru Harkirshan Sr. Sec. Public School, Pathankot
+          </h2>
+          <p class="sghpsinfo">High School</p>
+        </section>
+        <section>
+          <h1>Course Credentials</h1>
         <h2>
           Udacity
         </h2>
         <p>
           Data Analyst nano degree program
         </p>
+        </section>
       </div>
       <div id="work">
         <h1>WORK EXPERIENCE</h1>
@@ -129,6 +139,17 @@
       </div>
     </div>
   </div>
+  <div class="loader-wrapper">
+    <span class="loader">
+      <span class="loader-inner">
+      </span>
+    </span>
+  </div>
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    }); 
+  </script>
   <script src="script.js"></script>
 </body>
 
