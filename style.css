@@ -79,11 +79,11 @@ html {
 }
 
 .level4 {
-  width: 60%;
+  width: 70%;
   height: 100%;
-  background-color: rgb(255, 255, 255);
   text-align: center;
-  color: white;
+  background-color: #FFF;
+  color: black;
   align-items: center;
   overflow: auto;
   border-top-left-radius: 20px;
@@ -132,14 +132,15 @@ html {
 .page_heading {
   padding-top: 15px;
   padding-bottom: 20px;
+  color: #FFF;
   text-shadow: 2px 2px 15px black;
 }
 
 .page_heading2{
   padding-top: 30px;
+  color: #FFF;
   text-shadow: 2px 2px 15px black;
 }
-
 
 .row {
   display: flex;
@@ -160,18 +161,14 @@ html {
   flex: 2;
   font-weight: bold;
   font-size: 22px;
-  text-shadow: 2px 2px 15px grey;
-  color: black;
 }
 
 .title {
   padding-top: 10px;
   height: 40px;
   font-weight: lighter;
-  color: black;
 }
 
 .info {
   height: auto;
-  color: black;
 }
