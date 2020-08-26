@@ -72,6 +72,11 @@ html {
   background-color: #A89C94FF;
   font-size: 1.5vw;
   color: #FFF;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* box-shadow: 2px 2px 15px grey; */
 }
 
 .level4 {
@@ -82,6 +87,9 @@ html {
   color: white;
   align-items: center;
   overflow: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 5px;
 }
 
 .objects {
@@ -99,15 +107,27 @@ html {
 .level3 .objects:hover{
   background-color: rgb(145, 131, 122);
   cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .level3 .objects.selected {
   background-color: rgb(224, 128, 49);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .level3 .objects.selected:hover {
   background-color: rgb(224, 128, 49);
   cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .page_heading {
