@@ -5,6 +5,7 @@
     contact_conent = document.getElementById("contact").innerHTML;
 
 
+    document.getElementById("container").innerHTML = document.getElementById("construction").innerHTML;
     document.getElementById("content").innerHTML = document.getElementById("holder").innerHTML;
 
 function changeDiv(i){
