@@ -6,7 +6,7 @@
 
 
     document.getElementById("container").innerHTML = document.getElementById("construction").innerHTML;
-    document.getElementById("content").innerHTML = document.getElementById("holder").innerHTML;
+    document.getElementById("content").innerHTML = "<h2> </h2>";
 
 function changeDiv(i){
 
