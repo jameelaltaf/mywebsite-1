@@ -5,8 +5,8 @@
     contact_conent = document.getElementById("contact").innerHTML;
 
 
-    document.getElementById("container").innerHTML = document.getElementById("construction").innerHTML;
-    document.getElementById("content").innerHTML = "<h2> </h2>";
+    document.getElementById("content").innerHTML = edu_content;
+    // document.getElementById("content").innerHTML = "<h2> </h2>";
 
 function changeDiv(i){
 
