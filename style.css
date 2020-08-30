@@ -43,57 +43,36 @@ html {
   text-shadow: 5px 5px 0 0 #011627;
 }
 
-.about {
-  text-align: left;
-  font-size: 3em;
-}
-
 .name {
-padding: 10% 0 10% 0;
+  padding: 10% 0 10% 0;
 }
 
 .intro-message {
-
   margin: 30% 20% 10% 2%;
 }
 
 .resume {
-
   border: solid 4px #011627;
   border-radius: 15px;
   padding: 14px 25px;
   background-color: #fff;
   font-weight: bold;
-}
-
-.resume a {
   text-decoration: none;
   color: #011627;
 }
 
 .resume:hover {
   cursor: pointer;
-  border: solid 4px #011627;
-  border-radius: 15px;
-  padding: 14px 25px;
-  background-color: #2ec4b6;
-  box-shadow: 4px 4px #011627;
-  font-weight: bold;
-  transition: 0.5s;
-  overflow: hidden;
 }
 
 .socials {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.designer {
-  bottom: 0;
-  font-weight: thin;
   position: fixed;
-  z-index: 100;
+  bottom: 0;
+  display: block;
+  border: solid 4px #011627;
+  border-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .menu {  
@@ -116,7 +95,7 @@ padding: 10% 0 10% 0;
   width: 70%;
   height: 100%;
   text-align: center;
-  background-color: #011627;
+  background-color: #f79d84;
   color: #FFF;
   align-items: center;
   overflow: auto;
@@ -168,28 +147,13 @@ padding: 10% 0 10% 0;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 30px;
-  box-shadow: 5px 5px;
-}
-
-.education .page-heading {
-  
-  color: white;
-  border: solid 4px #fefee3;
-  border-radius: 15px;
-  background-color: #011627;
-  font-weight: bolder;
-  font-size: 2em;
-  position: relative;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 30px;
-  box-shadow: 5px 5px;
+  box-shadow: -5px 5px;
 }
 
 .column {
   float: left;
   padding: 10px;
-  height: 300px;
+  height: 30%;
 }
 .work .column {
   height: auto;
@@ -308,6 +272,7 @@ margin-top: 3%;
   width: 25%;
   padding: 0 10px;
   overflow: auto;
+  height: 300px;
 }
 
 /* Remove extra left and right margins, due to padding */
