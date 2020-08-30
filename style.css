@@ -27,7 +27,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px
+  padding: 10px;
+  overflow: auto;
 }
 
 .fa{
@@ -40,7 +41,6 @@ html {
   color: #2ec4b6;
   transition: 0.5s;
   text-shadow: 5px 5px 0 0 #011627;
-  overflow: hidden;
 }
 
 .welcome {
@@ -73,11 +73,9 @@ html {
 }
 
 .socials {
-  display:inline-flex;
-  vertical-align: middle;
-  position: fixed;
-  z-index: 100;
-  bottom: 25%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .designer {
@@ -100,7 +98,7 @@ html {
   left: 25.5%;
   border: solid 3px black;
   border-radius: .7rem;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .secondary {
@@ -283,25 +281,53 @@ margin-bottom: 3%;
 margin-top: 3%;
 }
 
-.project {
+
+.projects .column {
+  float: left;
   width: 25%;
-  height: 30%;
-  margin-right: 2%;
+  padding: 0 10px;
+  overflow: auto;
 }
 
-.project:hover {
-  width: 27%;
-  height: 33%;
-  border: solid 1px #011627;
-  border-radius: 5px;
+/* Remove extra left and right margins, due to padding */
+.projects .row {
+  margin: 0 -5px;
+  padding: 10px;
+  margin-left: 5%;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+.projects .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: auto;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.projects .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
   background-color: #ebaa39;
-  transition: 0.2s;
-  box-shadow: 5px 5px 0 0 #011627;
+  height: 100%;
+  border: solid 4px #011627;
+  border-radius: 20px;
+  overflow: auto;
 }
 
-.link-to-project {
-  
-}
+
 /*                */
 
 
