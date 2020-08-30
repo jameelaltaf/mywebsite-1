@@ -54,14 +54,10 @@ padding: 10% 0 10% 0;
 
 .intro-message {
 
-  margin: 30% 20% 0 2%;
+  margin: 30% 20% 10% 2%;
 }
 
 .resume {
-
-  top: 70%;
-  left: 30%;
-  margin: 50% 50% 0 50%;
 
   border: solid 4px #011627;
   border-radius: 15px;
