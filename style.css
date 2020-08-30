@@ -67,12 +67,12 @@ html {
 
 .socials {
   position: fixed;
-  bottom: 0;
+  top: 0;
   display: block;
   border: solid 4px #011627;
-  border-bottom: 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .menu {  
