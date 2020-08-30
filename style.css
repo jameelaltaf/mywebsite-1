@@ -33,11 +33,12 @@ html {
 .socials {
   top: 0;
   position: fixed;
-  border: solid 4px #011627;
+  /* border: solid 4px #011627; */
   border-top: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .fa{
@@ -57,7 +58,8 @@ html {
 }
 
 .resume {
-  border: solid 4px #011627;
+  /* border: solid 4px #011627; */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border-radius: 15px;
   padding: 14px 25px;
   background-color: #fff;
@@ -82,7 +84,7 @@ html {
   bottom: 20%;
   left: 25.5%;
   overflow: auto;
-  box-shadow: 0px 3px 3px 3px rgb(134, 132, 132);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border-radius: 2px;
 }
 
@@ -133,16 +135,16 @@ html {
 .page-heading {
   
   color: #011627;
-  border: solid 4px #011627;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: white;
   font-weight: bolder;
   font-size: 2em;
   position: relative;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 40%;
+  margin-right: 40%;
   margin-bottom: 30px;
-  box-shadow: -5px 5px;
+  overflow: auto;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .column {
@@ -315,6 +317,7 @@ margin-top: 3%;
   margin-top: 20%;
 }
   form {
+  height: 100%;
   position: relative;
   width: 80%;
   border-radius: 30px;
