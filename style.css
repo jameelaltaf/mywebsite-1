@@ -27,7 +27,6 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   overflow: auto;
 }
 
@@ -38,9 +37,9 @@ html {
 }
 
 .fa:hover{
+  font-size: 50px;
   color: #2ec4b6;
   transition: 0.5s;
-  text-shadow: 5px 5px 0 0 #011627;
 }
 
 .name {
@@ -66,13 +65,14 @@ html {
 }
 
 .socials {
-  position: fixed;
+
   top: 0;
-  display: block;
+  position: fixed;
   border: solid 4px #011627;
   border-top: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  background-color: white;
 }
 
 .menu {  
