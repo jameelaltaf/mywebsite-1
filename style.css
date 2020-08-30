@@ -43,12 +43,26 @@ html {
   text-shadow: 5px 5px 0 0 #011627;
 }
 
-.welcome {
-  padding: 10px;
-  padding-bottom: 15px;
+.about {
+  text-align: left;
+  font-size: 3em;
+}
+
+.name {
+padding: 10% 0 10% 0;
+}
+
+.intro-message {
+
+  margin: 30% 20% 0 2%;
 }
 
 .resume {
+
+  top: 70%;
+  left: 30%;
+  margin: 50% 50% 0 50%;
+
   border: solid 4px #011627;
   border-radius: 15px;
   padding: 14px 25px;
@@ -58,6 +72,7 @@ html {
 
 .resume a {
   text-decoration: none;
+  color: #011627;
 }
 
 .resume:hover {
@@ -212,6 +227,7 @@ html {
 
 .work{
   padding-top: 3%;
+  padding-bottom: 3%;
   background-color: #e39774;
 }
 
