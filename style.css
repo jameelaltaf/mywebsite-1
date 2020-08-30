@@ -134,7 +134,7 @@ html {
   background-color: white;
   color: #011627;
   transition: 0.7s;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .menu .menu-option .selected:hover {
@@ -180,7 +180,12 @@ html {
   padding: 10px;
   height: 300px;
 }
-
+.work .column {
+  height: auto;
+}
+.internship {
+  margin-top: 3%;
+}
 .left {
   padding-left: 7%;
   width: 30%;
@@ -202,22 +207,26 @@ html {
 }
 
 .education {
-
+  padding-top: 3%;
 }
 
 .work{
+  padding-top: 3%;
   background-color: #e39774;
 }
 
 .projects {
+  padding-top: 3%;
   background-color: #3fa7d6;
 }
 
 .skills {
+  padding-top: 3%;
   background-color: #fac05e;
 }
 
 .contact {
+  padding-top: 3%;
   background-color: #f79d84;
   align-content: center;
 }
