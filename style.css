@@ -30,6 +30,16 @@ html {
   overflow: auto;
 }
 
+.socials {
+  top: 0;
+  position: fixed;
+  border: solid 4px #011627;
+  border-top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+}
+
 .fa{
   font-size: 40px;
   color: black;
@@ -40,10 +50,6 @@ html {
   font-size: 50px;
   color: #2ec4b6;
   transition: 0.5s;
-}
-
-.name {
-  padding: 10% 0 10% 0;
 }
 
 .intro-message {
@@ -62,17 +68,6 @@ html {
 
 .resume:hover {
   cursor: pointer;
-}
-
-.socials {
-
-  top: 0;
-  position: fixed;
-  border: solid 4px #011627;
-  border-top: 0;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: white;
 }
 
 .menu {  
@@ -140,7 +135,7 @@ html {
   color: #011627;
   border: solid 4px #011627;
   border-radius: 15px;
-  background-color: #fefee3;
+  background-color: white;
   font-weight: bolder;
   font-size: 2em;
   position: relative;
@@ -223,13 +218,10 @@ html {
 }
 
 .icon:hover {
-  width: 80px;
-  height: 80px;
-  border: solid 1px #011627;
+
   border-radius: 5px;
   background-color: #ebaa39;
   transition: 0.2s;
-  box-shadow: 5px 5px 0 0 #011627;
 }
 
 .skill-languages {
@@ -257,7 +249,8 @@ html {
 
 .skills h3 {
 margin-left: 9%;
-color: #011627;
+color: white;
+text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 font-weight: bolder;
 font-size: 1.5em;
 text-align: left;
