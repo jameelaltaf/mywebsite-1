@@ -71,19 +71,18 @@ html {
 }
 
 .menu {  
-  font-weight: bold;
+  font-size: 1em;
   width: 9%;
   height: auto;
-  background-color: #2ec4b6;
+  background-color: white;
   color: black;
   position: fixed;
   z-index: 100;
   top: 20%;
   bottom: 20%;
   left: 25.5%;
-  border: solid 3px black;
-  border-radius: .7rem;
   overflow: auto;
+  box-shadow: 3px 3px 3px 3px rgb(56, 55, 55);
 }
 
 .secondary {
@@ -110,7 +109,7 @@ html {
 }
 
 .menu .menu-option:hover{
-  color: white;
+  color: black;
   cursor: pointer;
   overflow: hidden;
 }
