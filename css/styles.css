@@ -14,7 +14,7 @@
 .dialog-content {
   animation: slidein 0.5s;
   padding: 24px;
-  background-color: var(--color-blue);
+  background-color: var(--accent-color-primary);
   box-shadow: var(--material-shadow);
   width: 100%;
 }
