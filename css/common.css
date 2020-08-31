@@ -51,6 +51,7 @@ body {
   color: var(--text-color-primary);
   height: 100%;
   width: 100%;
+  background: #F4F3EE;
 }
 
 html,
