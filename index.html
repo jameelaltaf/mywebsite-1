@@ -1,354 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-  <title>Karandeep</title>
-</head>
-
-<body>
-
-  <div id="container" class="container">
-
-    <div class="primary">
-      <div class="socials">
-        <a href="https://www.facebook.com/1karandeepbhardwaj"><i class="fa fa-facebook-square icons"></i></a>
-        <a href="https://www.github.com/karandeepbhardwaj"><i class="fa fa-github icons"></i></a>
-        <a href="https://www.medium.com/karandeepbhardwaj"><i class="fa fa-medium icons"></i></a>
-        <a href="https://www.linkedin.com/in/karandeepbhardwaj"><i class="fa fa-linkedin-square icons"></i></a>
-        <a href="mailto:karandiip@gmail.com?subject=HTML link"><i class="fa fa-envelope icons"></i></a>
-    </div>
-      <div class="intro-message">
-      <h1 class="name">Karandeep Bhardwaj</h1>
-      <p class="degree-info">
-        CS Grad @ Concordia University.<br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styles-desktop.css">
+    <link rel="stylesheet" href="css/styles-tablet.css">
+    <title>Karandeep Bhardwaj</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main" class="main">
+        <h1 class="title">Karandeep Bhardwaj</h1>
+        <p class="description">
+          CS Grad @ Concordia University.
         Autonomous, critical thinker, fast learning individual with the ability to analyze and address complex issues. 
         Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
-        Activily Seeking Fulltime opportunities.</p>
+        Activily Seeking Fulltime opportunities.
+        </p>
+        <ul class="socials">
+          <li class="social-item">
+            <a
+              href="https://www.github.com/karandeepbhardwaj"
+              target="_blank"
+              rel="noopener"
+            >
+              <img class="icon" src="images/github_logo.png" />
+              <p class="name">Github</p>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.linkedin.com/in/karandeepbhardwaj/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img class="icon" src="images/linkedin_logo.png" />
+              <p class="name">LinkedIn</p>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://medium.com/karandeepbhardwaj"
+              target="_blank"
+              rel="noopener"
+            >
+              <img class="icon" src="images/medium_logo.png" />
+              <p class="name">Medium</p>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:karandiip@gmail.com?subject=HTML link" target="_blank" rel="noopener">
+              <img class="icon" src="images/blog_icon.png" />
+              <p class="name">email</p>
+            </a>
+          </li>
+        </ul>
+        <button id="contact-me-btn" class="btn">Contact Me</button>
       </div>
+      <div id="secondary">
+        <div class="portfolio">
+          <div class="portfolio-item" id="education">
+            <h2 class="portfolio-item-title">Education</h2>
+            <div class="education-list">
+              <div class="education-list-item">
+                <div class="name">Concordia University</div>
+                <div class="course">
+                  Masters of Applied Computer Science
+                </div>
+                <div class="view-details-btn" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="education-list-item">
+                <div class="name">
+                  Chandigarh Engineering College
+                </div>
+                <div class="course">
+                  Bachelor of Technology in Computer Science
+                </div>
+                <div class="view-details-btn" id="view-details-cec">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" id="experience">
+            <h2 class="portfolio-item-title">Experience</h2>
+            <div class="experience-list">
+              <div class="experience-list-item">
+                <div class="name">Concordia University</div>
+                <div class="position">Graduate Teaching Assistant</div>
+                <div class="view-details-btn" id="view-details-ta">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="experience-list-item">
+                <div class="name">Unisys Corporation</div>
+                <div class="position">Systems Engineer</div>
+                <div class="view-details-btn" id="view-details-unisys">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+            </div>
+            <h2 class="portfolio-item-title">Internships</h2>
+            <div class="experience-list">
+              <div class="experience-list-item">
+                <div class="name">Unisys</div>
+                <div class="position">Engineer Intern</div>
+                <div class="view-details-btn" id="view-details-unisys">
+                  Jan 2017 - April 2017
+                </div>
+                <div class="description"></div>
+              </div>
+              <div class="experience-list-item">
+                <div class="name">Society of Promotion of I.T.</div>
+                <div class="position">Summer Intern</div>
+                <div class="view-details-btn" id="view-details-unisys">
+                  July 2016 - September 2016
+                </div>
+                <div class="description"></div>
+              </div>
+              <div class="experience-list-item">
+                <div class="name">Debut Infotech</div>
+                <div class="position">Software Developer Intern</div>
+                <div class="view-details-btn" id="view-details-unisys">
+                  July 2015 - September 2015
+                </div>
+                <div class="description"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" id="skills">
+            <h1 class="portfolio-item-title">Skills</h1>
+            <div class="skills-list">
+              <div class="skills-item">
+                <img class="logo" src="images/java_logo.png" />
+                <div class="name">Java</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/python.png" />
+                <div class="name">Python</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/js_logo.png" />
+                <div class="name">Javascript</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/sql_logo.png" />
+                <div class="name">SQL</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/html_logo.svg" />
+                <div class="name">HTML</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/css_logo.png" />
+                <div class="name">CSS</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/git.png" />
+                <div class="name">GIT</div>
+              </div>
+            </div>
+            <h3 class="skill-list-title">I have "used" / "experience with"</h3>
+            <div class="skills-list">
+              <div class="skills-item">
+                <img class="logo" src="images/spring.png" />
+                <div class="name">Spring</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/javafx.jpg" />
+                <div class="name">JavaFX</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/django.png" />
+                <div class="name">Django</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/aws.png" />
+                <div class="name">AWS</div>
+              </div>
+              <div class="skills-item">
+                <img class="logo" src="images/junit.png" />
+                <div class="name">Junit</div>
+              </div>
+            </div>
+            <h3 class="skill-list-title">Libraries</h3>
+            <div class="skills-list">
+              <div class="skills-item">
+                <div class="name">Matplotlib</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Pandas</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">NumPy</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">SeaBorn</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">SciPy</div>
+              </div>
+            </div>
+            <h3 class="skill-list-title">Techniques</h3>
+            <div class="skills-list">
+              <div class="skills-item">
+                <div class="name">Data Wrangling</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Data Analysis</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Explonatory Data Analysis</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Data Modeling</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">A/B Testing</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Logistic Regression</div>
+              </div>
+              <div class="skills-item">
+                <div class="name">Hypothesis Testing</div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" id="projects">
+            <h2 class="portfolio-item-title">Projects</h2>
+            <div class="project-list">
+              <div class="project-list-item">
+                <div class="title">Exploring Lyft's Ford GO Bike Data</div>
+                <div class="type">Analisys</div>
+                <div class="date">(June 2020 - August 2020)</div>
+                <div class="description">
+                  A real estate mobile application built using Flutter for iOS
+                  and Android.
+                </div>
+                <div class="view-details-btn small" id="view-details-1">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">IMDB Data Trends</div>
+                <div class="type">Analysis</div>
+                <div class="date">(March 2020 - June 2020)</div>
+                <div class="description">
+                  
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">We Rate Dogs Twitter Data Analysis</div>
+                <div class="type">Analysis</div>
+                <div class="date">(March 2020 - June 2020)</div>
+                <div class="description">
+                  A microservice built to send, log and manage notifications via
+                  various sources such as SendGrid and Firebase. Built using
+                  Node, Typescript, RabbitMQ and PostgreSQL.
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">Allien Invasio</div>
+                <div class="type">Python Project</div>
+                <div class="date">(January 2020 - Febuary 2020)</div>
+                <div class="description">
+                  Classic Allien Invasion game developed in Python with focus on
+                  Objected Oriented programing and design.
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">Battleship Game</div>
+                <div class="type">Java Project</div>
+                <div class="date">(July 2019 - August 2019)</div>
+                <div class="description">
+                  Classic battleship game developed in Java with focus on
+                  software architecture and design.
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">Gradient Generator</div>
+                <div class="type">Web Application</div>
+                <div class="date">(September 2019 - October 2019)</div>
+                <div class="description">
+                  
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="project-list-item">
+                <div class="title">Distributed Systems</div>
+                <div class="type">Java Corba Project</div>
+                <div class="date">(Jan 2019 - May 2019)</div>
+                <div class="description">
+                </div>
+                <div class="view-details-btn small" id="view-details-concordia">
+                  View Details <img class="icon" src="images/right-arrow.png" />
+                </div>
+              </div>
 
-      <a href="/docs/ResumeKarandeep.pdf" class="resume">RESUME</a>
+              <p>More Projects ></p>
+            </div>
+          </div>
+          <div class="portfolio-item" id="certifications">
+            <h2 class="portfolio-item-title">Certifications</h2>
+            <div class="certification-list">
+              <div class="certification-list-item">
+                <div class="title">
+                  Data Analyst Nano Degree | Udacity
+                </div>
+              </div>
+              <div class="certification-list-item">
+                <div class="title">Solutions Architect Associate | AWS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="portfolio-item">
+          <h2 class="portfolio-item-title">Let's get in touch!</h2>
+          <h3 class="title">
+            <img src="images/send_icon.png" class="contact-icon" />
+            Send me an email
+          </h3>
+          <a href="mailto:karandiip@gmail.com" class="contact-link"
+            >karandiip@gmail.com</a
+          >
+          <h3 class="title">
+            <img src="images/phone_icon.png" class="contact-icon" />
+            Give me a call
+          </h3>
+          <a href="tel:+1 (514) 560-3230" class="contact-link"
+            >+1 (438) 924-0558</a
+          >
+          <h3 class="title">
+            <img src="images/chat_icon.png" class="contact-icon" />
+            Send me a message
+          </h3>
+          <form id="contact-form" novalidate>
+            <label>
+              Name
+              <input class="input" type="text" placeholder="John Doe" />
+            </label>
+            <label>
+              Email
+              <input
+                class="input"
+                type="email"
+                placeholder="example@somecompany.com"
+              />
+            </label>
+            <label>
+              Phone
+              <input class="input" type="tel" placeholder="xxx-xxx-xxxx" />
+            </label>
+            <label>
+              Message
+              <textarea
+                class="input"
+                rows="6"
+                placeholder="Do you like coffee?"
+              ></textarea>
+            </label>
+            <button class="btn">Send</button>
+          </form>
+        </div>
+      </div>
     </div>
-
-    <div class="menu">
-      <div class="menu-option" data-section="education">EDUCATION</div>
-      <div class="menu-option" data-section="work">WORK</div>
-      <div class="menu-option" data-section="projects">PROJECTS</div>
-      <div class="menu-option" data-section="skills">SKILLS</div>
-      <div class="menu-option" data-section="contact">CONTACT ME</div>
+    <!--Dialogs/Popups-->
+    <div id="details-dialog-concordia" class="details-dialog">
+      <div class="dialog-content">
+        <img class="close-btn" src="images/close_icon.png" />
+        <div>
+          <h4>Course Work</h4>Algortihm Design Techniques, Artifficial Intelligence, Natural Language Analysis, Distributed Systems, Advanced Programming Practices, Advanced Software Architecture, Advanced Database Technologies and Applications, Comparative Programming, Computer Networks, System Requirements Specification.
+        </div>
+      </div>
     </div>
-
-    <div id="content" class="secondary">
-      <div id="education" class="details education">
-        <div class="page-heading">EDUCATION</div>
-        <div class="row">
-          <div class="column left">
-            <h2>Concorida University</h2>
-            <p>Montreal, Quebec</p>
-            <p class="date">Jan 2019 - Dec 2020 (Expected)</p>
-          </div>
-          <div class="column right">
-            <h2>Master Of Applied Computer Science</h2>
-            <div class="degree-info">
-              <h4>Course Work</h4>Algortihm Design Techniques, Artifficial Intelligence, Natural Language Analysis, Distributed Systems, Advanced Programming Practices, Advanced Software Architecture, Advanced Database Technologies and Applications, Comparative Programming, Computer Networks, System Requirements Specification.
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Chandigarh Engineering College</h2>
-            <p>Chandigarh, India</p>
-            <p class="date">Jul 2013 - Jul 2017</p>
-          </div>
-          <div class="column right">
-            <h2>Bachelor Of Technology in Computer Science</h2>
-            <div class="degree-info">
-              <h4>Course Work</h4>Design and Analysis of Algortihm, Intro to Artifficial Intelligence, Data Analytics, Relational Database, Software Architecture, Data Mining, Object oriented programming, Functional Programming, Computer Networks, Web applications Development.
-            </div>
-          </div>
-        </div>
-
-        <h1 class="page-heading">COURSE CREDENTIALS</h1>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Udacity Online Platform</h2>
-            <p>Udacity.com</p>
-            <p class="date">May 2020 - Jul 2020</p>
-          </div>
-          <div class="column right">
-            <h2>Data Analyst Nano Degree Program</h2>
-            <div class="degree-info">
-              This program prepared me for a career as a data analyst by helping me learn to organize data, uncover
-              patterns and insights, draw meaningful conclusions, and clearly communicate critical findings.
-              I developed proficiency in Python and its data analysis libraries (Numpy, pandas, Matplotlib) and SQL as I
-              built a portfolio of projects to showcase in my github.
-            </div>
-          </div>
+    <div id="details-dialog-cec" class="details-dialog">
+      <div class="dialog-content">
+        <img class="close-btn" src="images/close_icon.png" />
+        <div>
+          <h4>Course Work</h4>Design and Analysis of Algortihm, Intro to Artifficial Intelligence, Data Analytics, Relational Database, Software Architecture, Data Mining, Object oriented programming, Functional Programming, Computer Networks, Web applications Development.
         </div>
       </div>
-
-      <div id="work" class="details work">
-        <h1 class="page-heading">WORK EXPERIENCE</h1>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Concorida University</h2>
-            <p>Montreal, Quebec</p>
-            <p class="date">Jan 2020 - Present</p>
-          </div>
-          <div class="column right">
-            <h2 class="title">Graduate Teaching Assistant</h2>
-            
-            <div class="degree-info">
-              <ul>
-                <li>Software Comprehension and Maintenance under Dr. JUERGEN RILLING.</li>
-                <li>Taught Reverse Engineering.</li>
-                <li>Guided students the fundamentals of programming and Web development.</li>
-                <li>Taught Dynamic source code analysis.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Unisys Corporation</h2>
-            <p>Bangalore, India</p>
-            <p class="date">Jan 2017 - Jul 2018</p>
-          </div>
-          <div class="column right">
-            <h2 class="title">Systems Engineer</h2>
-            
-            <div class="degree-info">
-              <ul>
-                <li>Deployment of GUI and speed improvements.</li>
-                <li>Single Sign-On Authentication implementation.</li>
-                <li>Authentication methods improvement.</li>
-                <li>Manually Tested 119 webforms with Client requirements.</li>
-                <li> Link to project: https://wpshealth.com/</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-        <h1 class="page-heading internship">INTERNSHIP</h1>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Unisys Corporation</h2>
-            <p>Bangalore, India</p>
-            <p class="date">Jan 2017 - April 2017</p>
-          </div>
-          <div class="column right">
-            <h2 class="title">Engineer Intern</h2>
-            
-            <div class="degree-info">
-              <ul>
-                <li>Migrated legacy ITSM from self-managed to Service now(SAAS model)</li>
-                <li>Deployed user requirements in tool</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Society of Promotion of IT (Indian Govt.)</h2>
-            <p>Chandigarh, India</p>
-            <p class="date">April 2015 - August 2015</p>
-          </div>
-          <div class="column right">
-            <h2 class="title">Summer Intern (JAVA) </h2>
-            
-            <div class="degree-info">
-              <ul>
-                <li>Online Ticketing tool Migration</li>
-                <li>Collaborated with Automation and tools team in deploying client requirements.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column left">
-            <h2>Debut Infotech</h2>
-            <p>Mohali, India</p>
-            <p class="date">April 2016 - August 2016</p>
-          </div>
-          <div class="column right">
-            <h2 class="title">Software Developer Intern </h2>
-            
-            <div class="degree-info">
-              <ul>
-                <li>Maintained and tested front-end code in multiple browsers to ensure cross-browser compatibility</li>
-                <li>Designed and implemented MySQL database queries for new user register combining with PHP</li>
-                <li>Assisted in the monitoring and reporting on shopping website traffic and performance</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="projects" class="details projects">
-        <h1 class="page-heading"> Selected Projects</h1>
-
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Exploring Lyft's Ford GO Bike Data</h3>
-              <p>Python3, NumPy, SciPy, Pandas, Matplotlib, Seaborn</p>
-              <a href="https://github.com/karandeepbhardwaj/Exploring-Lyft-s-FordGoBike-Data-from-2020"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-        
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>We Rate Dogs Twitter Data Analysis</h3>
-              <p>Python3, NumPy, SciPy, Pandas, Matplotlib, Seaborn</p>
-              <a href="https://github.com/karandeepbhardwaj/Twitter-Data-Analysis-WeRateDogs"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Distributed Systems</h3>
-              <p>JAVA 8, CORBA, Webservices, UDP</p>
-              <a href="https://github.com/karandeepbhardwaj/DLMS"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Battelship</h3>
-              <p>JAVA, JavaFX, Junit, MVVM</p>
-              <a href="https://github.com/karandeepbhardwaj/MVVM-MVC"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Alien Invasion</h3>
-              <p>Python3, PyGame</p>
-              <a href="https://github.com/karandeepbhardwaj/Alien-Invasion"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Analysis A/B Testing</h3>
-              <p>Python3, NumPy, SciPy, Pandas, Matplotlib, Seaborn</p>
-              <a href="https://github.com/karandeepbhardwaj/Analyze-AB-test-results"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>Gradient Generator</h3>
-              <p>HTML5, CSS3, javascript, jquery</p>
-              <a href="https://github.com/karandeepbhardwaj/Background-Generator"><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img src="images/ford.jpg">
-              <h3>IMDB Data Trends</h3>
-              <p>Python3, NumPy, SciPy, Pandas, Matplotlib, Seaborn</p>
-              <a href="https://github.com/karandeepbhardwaj/Data-Analysis-on-IMDB-Data-for-data-trends."><i class=" fa fa-arrow-right icons" style="color: white;"></i></a>
-            </div>
-          </div>
-        </div>
-        
-        <h2 class="link-to-project">Click <a style="text-decoration: none; color: white;" href="https://www.github/karandeepbhardwaj" class=" fa fa-link icons">  </a> to view more.</h2>
-
-      </div>
-
-      <div id="skills" class="details skills">
-        <div class="page-heading">Skills</div>
-
-        <h3>LANGUAGES</h3>
-        <div class="skill-languages">
-          <img class="icon" src="icons/java.png"/> 
-          <img class="icon" src="icons/python.png"/> 
-          <img class="icon" src="icons/javascript.png"/> 
-          <img class="icon" src="icons/sql.png"/> 
-          <img class="icon" src="icons/html.png"/> 
-          <img class="icon" src="icons/css.png"/> 
-        </div>
-        <h3>FRAMEWORKS</h3>
-        <div class="skill-frameworks">
-          <img class="icon spring" src="icons/spring.png"/> 
-          <img class="icon" src="icons/django.png"/> 
-          <img class="icon" src="icons/junit.png"/> 
-          <img class="icon javafx" src="icons/javafx.jpg"/> 
-        </div>
-        <h3>TOOLS</h3>
-        <div class="skill-tools">
-          <img class="icon aws" src="icons/aws.png"/> 
-          <img class="icon" src="icons/git.png"/> 
-          <img class="icon" src="icons/tableau.png"/> 
-          <img class="icon" src="icons/intellij.ico"/>
-          <img class="icon" src="icons/eclipse.ico"/>
-          <img class="icon" src="icons/vscode.png"/>
-          <img class="icon" src="icons/jupyter.png"/>
-          <img class="icon" src="icons/umbraco.png"/>
-        </div>
-        <h3>LIBRARIES</h3>
-        <div class="skill-libraries">
-          <ul>
-            <li>Matplotlib</li>
-            <li>NumPy</li>
-            <li>SeaBorn</li>
-            <li>Pandas</li>
-            <li>SciPy</li>
+    </div>
+    <div id="details-dialog-unisys" class="details-dialog">
+      <div class="dialog-content">
+        <img class="close-btn" src="images/close_icon.png" />
+        <div class="description">
+          <ul style="list-style: none;">
+            <li>Deployment of GUI and speed improvements.</li>
+            <li>Single Sign-On Authentication implementation.</li>
+            <li>Authentication methods improvement.</li>
+            <li>Manually Tested 119 webforms with Client requirements.</li>
+            <li> Link to project: https://wpshealth.com/</li>
           </ul>
         </div>
-        <h3>TECHNIQUES</h3>
-        <div class="skill-libraries">
-          <ul>
-            <li>Data Wrangling</li>
-            <li>Data Analysis</li>
-            <li>Explonatory Data Analysis</li>
-            <li>Data Modeling</li>
-            <li>A/B Testing</li>
-            <li>Logistic Regression</li>
-            <li>Hypithesis Testing</li>
-          </ul>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
       </div>
-      <div id="contact" class="details contact">
-        <div class="page-heading"> CONTACT ME</div>
-        <form action="/" class="decor">
-          <div class="form-left-decoration"></div>
-          <div class="form-right-decoration"></div>
-          <div class="circle"></div>
-          <div class="form-inner">
-            <h1>Contact us</h1>
-            <input type="text" placeholder="Username">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Message..." rows="5"></textarea>
-            <button type="submit" href="/">Submit</button>
-          </div>
-        </form>
-      </div>
-
     </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="script.js"></script>
-</body>
-
+    <div id="details-dialog-ta" class="details-dialog">
+      <div class="dialog-content">
+        <img class="close-btn" src="images/close_icon.png" />
+        <div class="description">
+          <ul style="list-style: none;">
+          <li>Software Comprehension and Maintenance under Dr. JUERGEN RILLING.</li>
+          <li>Taught Reverse Engineering.</li>
+          <li>Guided students the fundamentals of programming and Web development.</li>
+          <li>Taught Dynamic source code analysis.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="script/script.js"></script>
 </html>
