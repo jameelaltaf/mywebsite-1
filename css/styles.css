@@ -43,6 +43,7 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+  background: #F4F3EE;
 }
 
 .view-details-btn {
@@ -194,8 +195,8 @@
 #education {
   background: linear-gradient(
     -135deg,
-    var(--color-education),
-    var(--color-education)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -217,8 +218,8 @@
 #experience {
   background: linear-gradient(
     -135deg,
-    var(--color-work),
-    var(--color-work)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -248,8 +249,8 @@
 #skills {
   background: linear-gradient(
     -135deg,
-    var(--color-skills),
-    var(--color-skills)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -275,7 +276,7 @@
   align-items: center;
   transition: 0.3s;
   margin: 8px;
-  background-color: #019b8b;
+  background-color: #2d4e58;
   padding: 12px;
   border-radius: 4px;
 }
@@ -298,8 +299,8 @@
 #projects {
   background: linear-gradient(
     -135deg,
-    var(--color-projects),
-    var(--color-projects)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -307,7 +308,7 @@
   margin-bottom: 24px;
   padding: 16px;
   border-radius: 6px;
-  background: #00756985;
+  background: #142327;
   transition: 0.3s;
 }
 
@@ -355,8 +356,8 @@
 #certifications {
   background: linear-gradient(
     -135deg,
-    var(--color-certification),
-    var(--color-certification)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -370,11 +371,11 @@
 
 #contact {
   padding: 64px 32px;
-  color: black;
+  color: white;
   background: linear-gradient(
     -135deg,
-    var(--color-contact),
-    var(--color-contact)
+    var(--color-fixed),
+    var(--color-fixed)
   );
 }
 
@@ -432,7 +433,7 @@
 
 .input:focus {
   outline: none;
-  border-bottom: 1px solid var(--color-orange);
+  border-bottom: 1px solid var(--color-fixed);
 }
 
 .label {

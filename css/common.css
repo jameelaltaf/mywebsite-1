@@ -6,8 +6,8 @@
 
 :root {
   --text-color-primary: #4a4a4a;
-  --accent-color-primary: #3b80fe;
-  --accent-color-secondary: #1660e7;
+  --accent-color-primary: #EF767A;
+  --accent-color-secondary: #EF767A;
 
   --linkedin-color: #0e76a8;
 
@@ -34,12 +34,7 @@
   --color-blue-grey: #37474f;
   --color-blue-grey-secondary: #263238;
 
-  --color-education: #05668d;
-  --color-work: #028090;
-  --color-skills: #00a896;
-  --color-projects: #02c39a;
-  --color-certification: #8ff5df;
-  --color-contact: #f0f3bd;
+  --color-fixed: #1F363D;
 
   --material-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22);
