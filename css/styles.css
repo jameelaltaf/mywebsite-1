@@ -12,6 +12,7 @@
 }
 
 .dialog-content {
+  font-size: x-large;
   animation: slidein 0.5s;
   padding: 24px;
   background-color: var(--accent-color-primary);
@@ -314,7 +315,7 @@
   margin-bottom: 24px;
   padding: 16px;
   border-radius: 6px;
-  background: #a74f52;
+  background: #EF767A;
   cursor: pointer;
 }
 
