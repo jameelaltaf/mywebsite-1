@@ -1,6 +1,7 @@
 @media screen and (min-width: 600px) {
   .main {
     padding: 128px 64px;
+    box-shadow: var(--material-shadow-2);
   }
 
   .portfolio-item {
