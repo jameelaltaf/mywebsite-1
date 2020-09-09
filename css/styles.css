@@ -275,7 +275,7 @@
   align-items: center;
   transition: 0.3s;
   margin: 8px;
-  background-color: #2d4e58;
+  background-color: var(--color-highlight);
   padding: 12px;
   border-radius: 4px;
 }
@@ -307,7 +307,7 @@
   margin-bottom: 24px;
   padding: 16px;
   border-radius: 6px;
-  background: #142327;
+  background: var(--color-highlight);
   transition: 0.3s;
 }
 
