@@ -84,7 +84,11 @@ textarea {
   background-color: var(--accent-color-secondary);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
+.btn:active{
+  -moz-box-shadow: var(--material-shadow-1);
+  -webkit-box-shadow: var(--material-shadow-1);
+  box-shadow: var(--material-shadow-1);
+}
 @keyframes fadeslidein {
   from {
     left: -40px;
