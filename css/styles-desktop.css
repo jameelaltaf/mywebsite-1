@@ -1,8 +1,8 @@
 @media screen and (min-width: 900px) {
-  .dialog-content {
+  /* .dialog-content {
     width: fit-content;
     height: fit-content;
-  }
+  } */
 
   .container {
     flex-direction: row;
