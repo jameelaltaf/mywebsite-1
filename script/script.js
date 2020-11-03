@@ -15,6 +15,10 @@ window.onload = () => {
   ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
 
   [
+    { dialogId: "details-dialog-bidgala", btnId: "view-details-bidgala" },
+  ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
+
+  [
     { dialogId: "details-dialog-ta", btnId: "view-details-ta" },
   ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
 
